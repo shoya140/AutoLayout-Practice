@@ -21,6 +21,7 @@
 		767AE9D019B30AA400297264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767AE9B219B30AA400297264 /* UIKit.framework */; };
 		767AE9D819B30AA400297264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767AE9D619B30AA400297264 /* InfoPlist.strings */; };
 		767AE9DA19B30AA400297264 /* AutoLayout_PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767AE9D919B30AA400297264 /* AutoLayout_PracticeTests.m */; };
+		767AE9F219B319BC00297264 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 767AE9F119B319BC00297264 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		767AE9D519B30AA400297264 /* AutoLayout-PracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayout-PracticeTests-Info.plist"; sourceTree = "<group>"; };
 		767AE9D719B30AA400297264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		767AE9D919B30AA400297264 /* AutoLayout_PracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_PracticeTests.m; sourceTree = "<group>"; };
+		767AE9F019B319BC00297264 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		767AE9F119B319BC00297264 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		767AE9B419B30AA400297264 /* AutoLayout-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				767AE9E319B30AAB00297264 /* View */,
 				767AE9BD19B30AA400297264 /* AppDelegate.h */,
 				767AE9BE19B30AA400297264 /* AppDelegate.m */,
 				767AE9C019B30AA400297264 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				767AE9D619B30AA400297264 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767AE9E319B30AAB00297264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				767AE9F019B319BC00297264 /* CustomCell.h */,
+				767AE9F119B319BC00297264 /* CustomCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				767AE9C519B30AA400297264 /* ViewController.m in Sources */,
+				767AE9F219B319BC00297264 /* CustomCell.m in Sources */,
 				767AE9BF19B30AA400297264 /* AppDelegate.m in Sources */,
 				767AE9BB19B30AA400297264 /* main.m in Sources */,
 			);
